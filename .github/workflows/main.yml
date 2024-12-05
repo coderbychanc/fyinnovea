@@ -18,4 +18,5 @@ jobs:
       - name: Copy Folders
         run: |
           cp -R * /web
+          sudo systemctl restart nginx
 

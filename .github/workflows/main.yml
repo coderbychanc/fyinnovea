@@ -17,5 +17,5 @@ jobs:
 
       - name: Copy Folders
         run: |
-          cp -R *.* /web
+          cp -R * /web
 
